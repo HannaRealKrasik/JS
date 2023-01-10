@@ -12,6 +12,12 @@ export default class Animal {
     canEat() {
        console.log(`This animal can eat`)
     }
+    reproduction(){
+      console.log("This animal can reproduction");
+    }
+    breath(){
+      console.log("This anomal can breath")
+    }
  }
 
  let animal1 = new Animal("tiger");
