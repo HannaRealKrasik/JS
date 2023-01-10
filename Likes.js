@@ -1,3 +1,3 @@
 let g = 2;
-let d;
-let f;
+let d = 5;
+let f = g + d;
