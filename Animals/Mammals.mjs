@@ -15,6 +15,12 @@ class Mammals extends Animal{
     showBodyParts(){
        console.log(`${this.name} has ${this.legs} legs, ${this.skin} and ${this.claws} claws.`)
     }
+    reproduction(){
+      console.log("This animal can reproduction with children");
+    }
+    breath(){
+      console.log("This anomal breathe with lungs")
+    }
  }
  let mammal1 = new Mammals("cat", 'green', 'fur', 4, 'sharp')
  console.log(mammal1.name.toUpperCase());
@@ -22,6 +28,8 @@ class Mammals extends Animal{
  console.log(mammal1.eyes);
  mammal1.canEat()
  mammal1.showBodyParts()  
+ mammal1.reproduction();
+ mammal1.breath();
  
  let mammal2 = new Mammals('Peter')
  //console.log(mammal2.name)
